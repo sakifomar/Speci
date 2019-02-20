@@ -1,0 +1,338 @@
+body{
+    margin:0;
+    font-family: 'Lato', sans-serif;
+}
+.border{
+    border:1px solid red;
+    padding:30px 0;
+    margin:30px 0;
+}
+/* TOP BAR */
+.top-bar{
+   margin-top:25px;
+   border-bottom:1px solid #DDE5EA;
+}
+span.open{
+
+}
+.social-icon ul{
+   padding:0;
+   list-style:none;
+   display:inline;
+
+  
+}
+.social-icon li{
+    display:inline;
+ 
+}
+.social-icon a{
+    line-height:30px;
+    padding: 0 10px;
+    color:#000;
+    text-decoration:none;
+    
+}
+.social-icon li:last-child{
+    border-right: 1px solid #000;
+}
+.social-icon  a:hover{
+    color:red;
+}
+/* END OF TOP BAR */
+/* NAV BAR */
+.top-nav-bar{
+    margin-top:25px;
+}
+.top-nav-bar img{
+    padding-top:25px;
+}
+.navbar-default {
+    background-color:#fff;
+    border-color: #fff;
+    text-transform:uppercase;
+    font-weight:bold;
+  
+}
+
+.navbar-default .navbar-nav > li > a 
+{
+ color: #000;
+ font-size: 16px;
+ font-family:lato;
+}
+span.front{
+    display:block;
+    font-size:12px;
+    color:#AAAAB6;
+    text-transform:lowercase;
+
+    
+}
+.navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover 
+ {
+     color: #E10000;
+     background-color: transparent;
+ }
+ .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus.navbar-default .navbar-nav > .active > a:hover {
+    color:  #E10000;
+    background-color: #fff;
+}
+.top-nav-bar .font i{
+    padding-top:15px;
+}
+
+/* END OF NAV BAR */
+/* INDEX SLIDER */
+.carousel-caption {
+   text-align:left;
+  
+}
+.carousel-caption h2{
+    font-size:60px;
+    text-transform:uppercase;
+    font-family:lato;
+}
+.carousel-caption .btn-default {
+    color:#fff;
+    background-color:#E10000;
+    border-color: #E10000;
+  
+}
+.carousel-caption .btn{
+    border-radius:none;
+}
+/* END OF INDEX SLIDER */
+/* ABOUT US */
+.about-us{
+    margin: 60px 0;
+    border-bottom:1px solid #DDE5EA;
+}
+.about-us h2{
+    color:#111111;
+    font-size:40px;
+    font-weight:bold;
+}
+span.before::before{
+    content:'';
+  
+}
+span.before{
+    margin:30px 0;
+}
+.about-us .btn-default {
+    color:#111111;
+    background-color:#fff;
+    border:2px solid #111111;
+    margin: 20px 0;
+    border-radius:none;
+}
+.about-us .btn{
+    border-radius:none;
+}
+.about-us .btn-default:hover {
+    color:#fff;
+    background-color:#111111;
+    border:2px solid #111111;
+
+}
+
+
+/* END OF ABOUT US */
+/*  FOOD MENU */
+.food-menu{
+    margin:30px 0;
+}
+.salat-img img{
+    border:1px solid #fff;
+    border-radius:70px;
+    margin-bottom:30px;
+}
+.Potato-Croquettes-img img{
+    border:1px solid #fff;
+    border-radius:70px;
+    margin-bottom:30px;
+}
+.Pizza-Proper-img img{
+     border:1px solid #fff;
+    border-radius:70px;
+    margin-bottom:30px;
+}
+.Soba-Spaghetti-img img{
+       border:1px solid #fff;
+    border-radius:70px;
+    margin-bottom:30px;
+}
+.Baked-Potato-img img{
+      border:1px solid #fff;
+    border-radius:70px;
+    margin-bottom:30px;
+}
+.Twice-Baked-Potatoes-img img{
+      border:1px solid #fff;
+    border-radius:70px;
+    margin-bottom:30px;
+}
+.food-menu a{
+    text-decoration:none;
+    color:#000;
+    font-weight:bold;
+}
+.salat-text a::before{
+    content:'SALAT';
+    font-size: 20px;
+    
+}
+.Potato-Croquettes-text a::before{
+    content:'Potato Croquettes';
+    font-size: 20px;
+    
+}
+.Pizza-Proper-text a::before{
+    content:'Pizza Proper';
+    font-size: 20px;
+    
+}
+.Soba-Spaghetti-text a::before{
+    content:'Soba Spaghetti';
+    font-size: 20px;
+    
+}
+.Baked-Potato-text a::before{
+    content:'Baked Potato';
+    font-size: 20px;
+    
+}
+.Twice-Baked-Potatoes-text a::before{
+    content:'Twice Baked Potatoes';
+    font-size: 20px;
+    
+}
+.salat-text a::after{
+    content:'$16.99';
+    color:#DD0000;
+    font-size:20px;
+}
+.Potato-Croquettes-text a::after{
+    content:'$4.99';
+    color:#DD0000;
+    font-size:20px; 
+}
+.Pizza-Proper-text a::after{
+    content:'$10.79';
+    color:#DD0000;
+    font-size:20px;
+}
+.Soba-Spaghetti-text a::after{
+    content:'$10.79';
+    color:#DD0000;
+    font-size:20px;
+}
+.Baked-Potato-text a::after{
+    content:'$5.69';
+    color:#DD0000;
+    font-size:20px;
+}
+.Twice-Baked-Potatoes-text a::after{
+    content:'$10.69';
+    color:#DD0000;
+    font-size:20px;
+}
+/* END OF FOOD MENU */
+/* FOOTER TOP AREA */
+.footer-area-top {
+    margin: 30px;
+}
+.footer-area-top img{
+  
+}
+.footer-area-top a:hover{
+    color:#BF1727;
+}
+p.text{
+    padding:20px 0;
+}
+
+ul.footer-icon ul{
+    list-style:none;
+    padding:0;
+}
+ul.footer-icon  li{
+    display:inline;
+    padding:0 10px;
+}
+ul.footer-icon a{
+    color:#000;
+}
+.footer-area-top h4{
+    margin-top: 30px;
+
+}
+.footer-area-top h3{
+    margin-top:30px;
+}
+.left-icon ul{
+    list-style:none;
+    padding:0;
+}
+.left-icon a{
+    text-decoration:none;
+    color:#000;
+}
+.left-icon{
+    float:left;
+}
+.left-icon li{
+    padding:15px 0;
+}
+.right-links ul{
+     list-style:none;
+}
+.right-links a{
+    text-decoration:none;
+    color:#000;
+}
+.right-links{
+    overflow:hidden;
+  
+  
+}
+.right-links li{
+    padding:15px 0;
+}
+.footer-area-top .btn-default {
+    color: #fff;
+    background-color:#BF1727; 
+    border-color:#BF1727;
+}
+.footer-area-top .btn a:hover{
+    background:#fff;
+    padding: 50px;
+}
+/* END OF FOOTER TOP AREA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
